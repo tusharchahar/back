@@ -2,8 +2,6 @@ import cors from 'cors';
 import express from 'express';
 import { services } from './services';
 import mongoose from 'mongoose';
-import https from 'https';
-import fs from 'fs';
 
 const app = express();
 const MONGO_URL='mongodb+srv://tusharchahar:X4LE73swa5yF*Aq@cluster.aab0tfl.mongodb.net/tara?retryWrites=true&w=majority';
